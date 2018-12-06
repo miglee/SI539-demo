@@ -340,3 +340,7 @@ h2{
 .prtitle{
   color:#00BFFF;
 }
+
+ul{
+  padding-inline-start: 0px;
+}
