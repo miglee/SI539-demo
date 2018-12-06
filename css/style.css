@@ -20,7 +20,7 @@ nav {
 
 nav li{
     padding:15px;
-    color: #969696;
+/*    color: #969696;*/
 }
 nav a{
     text-decoration: none;
@@ -35,7 +35,7 @@ nav a:active {
     color: #969696;
 }*/
 nav a:hover {
-    color: #767676;
+/*    color: #767676;*/
 }
 
 
@@ -46,7 +46,7 @@ nav a:hover {
 }
 
 nav .current{
-  color:#EAEAEA;
+/*  color:#EAEAEA;*/
   text-decoration: underline;
 }
 
@@ -94,17 +94,17 @@ nav {
 
 nav li {
     display: inline;
-    color: #000000;
+/*    color: #000000;*/
     text-align: center;
 }
 
 
 nav li a:visited {
-    color: #000000;
+/*    color: #000000;*/
 }
 
 nav a .current{
-  color:#EAEAEA;
+/*  color:#EAEAEA;*/
   font-size:16px;
   text-decoration: underline;
 }
