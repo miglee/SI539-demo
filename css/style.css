@@ -328,6 +328,11 @@ color:#ffffff;
 }
 
 
-h1,h2{
+h1{
+  margin:20px;
+}
+
+
+h2{
   margin:20px;
 }
