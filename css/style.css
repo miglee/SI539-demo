@@ -95,7 +95,7 @@ nav li {
     text-align: center;
 }
 
-@media screen and (orientation: landscape) {
+@media screen (max-width: 780px)and (orientation: landscape) {
 nav {
   text-align: center;
 }
