@@ -75,7 +75,7 @@ label {
 #toggle-checkbox:checked ~nav{
     display:block;
 }
-@media screen and (min-width: 780px), (orientation: landscape) {
+@media screen and (min-width: 780px){
 
 label {
     display:none;
