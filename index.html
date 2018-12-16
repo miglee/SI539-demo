@@ -29,7 +29,8 @@
 
 <div class="flex-box">  
     <div class="left">  <img src="images/indeximage.jpg" alt="UX"> </div>
-<div class="right" > <h1 class="main-content" tabindex="-1">Hi! This is Mig.</h1>
+<div class="right" > <h1 class="main-content" tabindex="-1" id="type"></h1>
+
     <p>I always ask "why"s behind routines and seek for better solutions.
 I'm a UX designer who finds insights and makes simple and distinguished design.
 </p>
@@ -47,6 +48,28 @@ Please contact me if you’reinterested in working with me!
 <a aria-label="fb" href="https://www.facebook.com/mingli.lee.33"><i class="fab fa-facebook-square"></i></a>
 
 </footer>
+
+<script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
+
+<script>
+    
+var type = document.getElementById('type');
+
+var typewriter = new Typewriter(type, {
+    loop: false
+});
+
+typewriter.typeString("Hi! this is Mig.")
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString("I'm a UX designer.")
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString("I'm actively seeking full time position in 2019.")
+    .pauseFor(2500)
+    .start();
+
+</script>
 
 </body>
 </html>

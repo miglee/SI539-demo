@@ -75,9 +75,6 @@ label {
 #toggle-checkbox:checked ~nav{
     display:block;
 }
-
-
-/*bigscreen-normal*/
 @media screen and (min-width: 780px), (orientation: landscape) {
 
 label {
@@ -97,6 +94,16 @@ nav li {
 /*    color: #000000;*/
     text-align: center;
 }
+
+@media screen and (min-width: 780px), (orientation: landscape) {
+nav {
+  text-align: center;
+}
+
+}
+
+/*bigscreen-normal*/
+
 
 
 nav li a:visited {
